@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Dashboard</title>
+
+<link rel="stylesheet"
+href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2>Dashboard</h2>
+
+<a href="index.html">Home</a>
+
+<a href="portofolio.html">Portofolio</a>
+
+<a href="tugas.html">Tugas Kuliah</a>
+
+<a href="progres.html">Progres Harian</a>
+
+<button id="logoutBtn">
+
+Logout
+
+</button>
+
+</div>
+
+<div class="content">
+
+<h1>Selamat Datang</h1>
+
+<p id="tanggalHari"></p>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Tugas Aktif</h3>
+
+<p id="jumlahTugas">0</p>
+
+</div>
+
+<div class="card">
+
+<h3>Tugas Selesai</h3>
+
+<p id="jumlahRiwayatTugas">0</p>
+
+</div>
+
+<div class="card">
+
+<h3>Progres Aktif</h3>
+
+<p id="jumlahProgres">0</p>
+
+</div>
+
+<div class="card">
+
+<h3>Progres Selesai</h3>
+
+<p id="jumlahRiwayatProgres">0</p>
+
+</div>
+
+</div>
+
+</div>
+
+<script type="module" src="js/checkAuth.js"></script>
+<script type="module" src="js/dashboard.js"></script>
+
+</body>
+
+</html>
